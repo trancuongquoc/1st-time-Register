@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184540A51FF34556000BD50F /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184540A41FF34556000BD50F /* SlideMenu.swift */; };
+		184540A91FF35402000BD50F /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184540A81FF35402000BD50F /* ContainerVC.swift */; };
+		18EBA5D61FF4D269006E57E4 /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EBA5D51FF4D269006E57E4 /* EditUserViewController.swift */; };
 		8424E7FA1FE36E3B00A686DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E7F91FE36E3B00A686DD /* AppDelegate.swift */; };
 		8424E7FC1FE36E3B00A686DD /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424E7FB1FE36E3B00A686DD /* CitiesTableViewController.swift */; };
 		8424E7FF1FE36E3B00A686DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424E7FD1FE36E3B00A686DD /* Main.storyboard */; };
@@ -25,13 +28,12 @@
 		84B0F0F11FE4D5A30018CDAF /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0F0F01FE4D5A30018CDAF /* District.swift */; };
 		84D6BF7E1FE775A7005BCB07 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6BF7D1FE775A7005BCB07 /* RadioButton.swift */; };
 		84DD1A3D1FE7B1C8003FE2AE /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD1A3C1FE7B1C8003FE2AE /* SummaryViewController.swift */; };
-		84E2E0351FEA5DA00096F460 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2E0341FEA5DA00096F460 /* StartViewController.swift */; };
-		84EA8EDE1FEB64370071D3A7 /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA8EDD1FEB64370071D3A7 /* SlideMenuViewController.swift */; };
-		84EA8EE01FEB6A580071D3A7 /* UserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA8EDF1FEB6A580071D3A7 /* UserInfoCell.swift */; };
-		84EA8EE41FEB6E060071D3A7 /* UsersListAfterSlidingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EA8EE31FEB6E060071D3A7 /* UsersListAfterSlidingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184540A41FF34556000BD50F /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		184540A81FF35402000BD50F /* ContainerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		18EBA5D51FF4D269006E57E4 /* EditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserViewController.swift; sourceTree = "<group>"; };
 		8424E7F61FE36E3B00A686DD /* 1st-time-Register.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1st-time-Register.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8424E7F91FE36E3B00A686DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8424E7FB1FE36E3B00A686DD /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
@@ -52,10 +54,6 @@
 		84B0F0F01FE4D5A30018CDAF /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
 		84D6BF7D1FE775A7005BCB07 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = ../RadioButton.swift; sourceTree = "<group>"; };
 		84DD1A3C1FE7B1C8003FE2AE /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
-		84E2E0341FEA5DA00096F460 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		84EA8EDD1FEB64370071D3A7 /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
-		84EA8EDF1FEB6A580071D3A7 /* UserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCell.swift; sourceTree = "<group>"; };
-		84EA8EE31FEB6E060071D3A7 /* UsersListAfterSlidingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListAfterSlidingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,17 +92,16 @@
 				84B0F0F01FE4D5A30018CDAF /* District.swift */,
 				84B0F0EE1FE4CBCD0018CDAF /* DataService.swift */,
 				8424E7FD1FE36E3B00A686DD /* Main.storyboard */,
-				84EA8EDF1FEB6A580071D3A7 /* UserInfoCell.swift */,
-				84EA8EDD1FEB64370071D3A7 /* SlideMenuViewController.swift */,
-				84E2E0341FEA5DA00096F460 /* StartViewController.swift */,
-				84EA8EE31FEB6E060071D3A7 /* UsersListAfterSlidingViewController.swift */,
+				843042011FE75E0300523368 /* AgePickerViewController.swift */,
+				18EBA5D51FF4D269006E57E4 /* EditUserViewController.swift */,
+				843041FF1FE751D700523368 /* GenderViewController.swift */,
+				184540A41FF34556000BD50F /* SlideMenu.swift */,
+				184540A81FF35402000BD50F /* ContainerVC.swift */,
 				8457E2971FEA097A00054D21 /* InfoList.swift */,
 				8457E2991FEA0BAC00054D21 /* TableViewCell.swift */,
-				843042011FE75E0300523368 /* AgePickerViewController.swift */,
 				8424E80F1FE3816C00A686DD /* Cities.plist */,
-				843041FF1FE751D700523368 /* GenderViewController.swift */,
-				8424E7FB1FE36E3B00A686DD /* CitiesTableViewController.swift */,
 				84A91BEE1FE50A370076E230 /* DisctrictsTableViewController.swift */,
+				8424E7FB1FE36E3B00A686DD /* CitiesTableViewController.swift */,
 				84DD1A3C1FE7B1C8003FE2AE /* SummaryViewController.swift */,
 				8424E8001FE36E3B00A686DD /* Assets.xcassets */,
 				8424E8021FE36E3B00A686DD /* LaunchScreen.storyboard */,
@@ -190,18 +187,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8457E29A1FEA0BAC00054D21 /* TableViewCell.swift in Sources */,
-				84E2E0351FEA5DA00096F460 /* StartViewController.swift in Sources */,
+				184540A51FF34556000BD50F /* SlideMenu.swift in Sources */,
 				8424E7FC1FE36E3B00A686DD /* CitiesTableViewController.swift in Sources */,
-				84EA8EE41FEB6E060071D3A7 /* UsersListAfterSlidingViewController.swift in Sources */,
+				184540A91FF35402000BD50F /* ContainerVC.swift in Sources */,
 				8457E2981FEA097A00054D21 /* InfoList.swift in Sources */,
 				84A91BEF1FE50A370076E230 /* DisctrictsTableViewController.swift in Sources */,
 				84B0F0F11FE4D5A30018CDAF /* District.swift in Sources */,
 				84B0F0ED1FE4C9040018CDAF /* City.swift in Sources */,
 				8424E7FA1FE36E3B00A686DD /* AppDelegate.swift in Sources */,
-				84EA8EE01FEB6A580071D3A7 /* UserInfoCell.swift in Sources */,
 				843042001FE751D700523368 /* GenderViewController.swift in Sources */,
 				8457E2961FE9F6D900054D21 /* 1st-time-Register.xcdatamodeld in Sources */,
-				84EA8EDE1FEB64370071D3A7 /* SlideMenuViewController.swift in Sources */,
+				18EBA5D61FF4D269006E57E4 /* EditUserViewController.swift in Sources */,
 				84D6BF7E1FE775A7005BCB07 /* RadioButton.swift in Sources */,
 				843042021FE75E0300523368 /* AgePickerViewController.swift in Sources */,
 				84B0F0EF1FE4CBCD0018CDAF /* DataService.swift in Sources */,
@@ -345,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G4J3779JZ;
 				INFOPLIST_FILE = "1st-time-Register/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LastManStanding.-st-time-Register";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4G4J3779JZ;
 				INFOPLIST_FILE = "1st-time-Register/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LastManStanding.-st-time-Register";
 				PRODUCT_NAME = "$(TARGET_NAME)";

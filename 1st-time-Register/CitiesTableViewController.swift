@@ -8,12 +8,16 @@
 
 import UIKit
 import Foundation
+extension Notification.Name {
+    static let toggleMenu =  Notification.Name(rawValue: "toggleMenu")
+}
 
 class CitiesTableViewController: UIViewController, UITableViewDataSource {
-
+    let slideMenuInstance = ContainerVC()
     @IBOutlet weak var tableView: UITableView!
      override func viewDidLoad() {
         super.viewDidLoad()
+
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -36,8 +40,13 @@ class CitiesTableViewController: UIViewController, UITableViewDataSource {
         }
     }
     
+ 
     
+    @IBAction func notifyHamburgerBtnTapped() {
+        NotificationCenter.default.post(name: Notification.Name.toggleMenu, object: self)
+    }
     
+
 }
 
 
